@@ -187,5 +187,10 @@
 
 // select a link and update its href to point to https://sheryians.com ?
 
-        let link = document.querySelector("a")
-        link.setAttribute("href","https://sheryians.com")
+        // let link = document.querySelector("a")
+        // link.setAttribute("href","https://sheryians.com")
+
+// add a title attribute to a div dynamically ?
+
+     let title = document.querySelector("div")
+     title.setAttribute("title","hey this is me")
