@@ -140,8 +140,11 @@
 
 // use querySelectorAll to select all button with class ".buy-now"
         // it rerun = nodeList
-           let bynow = document.querySelectorAll("button")
-           console.log(bynow)
+        //    let bynow = document.querySelectorAll("button")
+        //    console.log(bynow)
+
+// t1: select the heading of a page by ID and change its text to "welcome to sheryian "
           
-         
+       let head = document.querySelector("#heading")
+       head.textContent = "welcome to my feed !"
                         
