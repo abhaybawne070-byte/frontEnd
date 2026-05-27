@@ -197,5 +197,16 @@
 
 // remove the disabled attribute from a button ?
 
-        let btn = document.querySelector("button")
-        btn.removeAttribute("disabled")
+        // let btn = document.querySelector("button")
+        // btn.removeAttribute("disabled")
+
+// can you remove an element using removeChild()?
+
+        //  document.querySelector("div").removeChild(elementnode)
+
+// create a new list item <li>new task</li> and add it to the end of a <ul>
+
+        let list = document.querySelector("ul")
+        let li = document.createElement("li")
+        li.textContent=("kalu")
+        list.append(li)
