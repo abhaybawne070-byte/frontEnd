@@ -133,7 +133,12 @@
         //                     document.querySelector("#id")
 
 // what does getElementByClassName return ? 
-//         it return - 
+//         it return -  HTMLCollection  it like array 
 
+           let cl = document.getElementsByClassName("h1")
+           console.log(cl)
+
+
+          
          
                         
