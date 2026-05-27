@@ -55,4 +55,11 @@
                 // h1.textContent = "hello aanu kasi ho"
                 // document.body.append(h1)
                 // h1.remove()
+        
+        // example - 
+        //        let h1 = document.createElement("h1")
+        //        h1.textContent = ("hello kaise ho 5")
+        //        let newdiv = document.querySelector("div")
+        //        newdiv.append(h1)
+
 
