@@ -62,4 +62,11 @@
         //        let newdiv = document.querySelector("div")
         //        newdiv.append(h1)
 
+// sytle update via .style and classlist (add, remove , toggle) - 
 
+        //  let h1 = document.querySelector("h1")
+        //  h1.style.color = "red"
+        //  h1.style.background = "blue"
+        
+        // classMethod - 
+                   
