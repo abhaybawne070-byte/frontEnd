@@ -170,5 +170,11 @@
 // select a paragraph and replace it contect with 
 // { <b>updated</b> by javaScript}
 
-        let change = document.querySelector("p")
-        change.innerHTML = " <b>updated</b> by javaScript"
+        // let change = document.querySelector("p")
+        // change.innerHTML = " <b>updated</b> by javaScript"
+ 
+// how do you get the src of and image using javascript ?
+         
+        let photo = document.querySelector("img")
+        console.log(  photo.getAttribute("src"))
+         console.log(photo.src)
