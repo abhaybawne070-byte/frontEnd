@@ -175,6 +175,11 @@
  
 // how do you get the src of and image using javascript ?
          
-        let photo = document.querySelector("img")
-        console.log(  photo.getAttribute("src"))
-         console.log(photo.src)
+        // let photo = document.querySelector("img")
+        // console.log(  photo.getAttribute("src"))
+        //  console.log(photo.src)
+
+// what does setAttribute() do ? 
+
+         let photo = document.querySelector("img")
+         photo.setAttribute("src","https://images.unsplash.com/photo-1778434505577-28b8e26384f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D")
