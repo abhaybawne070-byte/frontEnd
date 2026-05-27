@@ -150,13 +150,25 @@
 
 // select all <li> element and print their text using a loop -
 
-        let los = document.querySelectorAll("ol")
-        los.forEach((val)=>{
-                console.log(val.textContent)
-        })
+        // let los = document.querySelectorAll("ol")
+        // los.forEach((val)=>{
+        //         console.log(val.textContent)
+        // })
 
-        let loos = document.querySelectorAll("ol")
-        for(let i=0 ; i<loos.length; i++){
-                console.log(loos[i].textContent)
-        }
-                        
+        // let loos = document.querySelectorAll("ol")
+        // for(let i=0 ; i<loos.length; i++){
+        //         console.log(loos[i].textContent)
+        // }
+
+// what's the difference between innnerText , textContent AND innerHTML ?
+        //    innertext  = text ko change karta hai 
+        //    textContent = text ko change karta hai par tag ko text ke format me deta hai
+        //    innerHTML = tag ko change karne ke liye use hota hai 
+
+// when should you use textContent instead of innerText ?
+        
+// select a paragraph and replace it contect with 
+// { <b>updated</b> by javaScript}
+
+        let change = document.querySelector("p")
+        change.innerHTML = " <b>updated</b> by javaScript"
