@@ -69,4 +69,71 @@
         //  h1.style.background = "blue"
         
         // classMethod - 
-                   
+                //    let h1 = document.querySelector("h1")
+                //    console.dir(h1)
+                //    h1.classList.add("haha")
+
+                //    add()-
+                //        let h1 = document.querySelector("h1")
+                //        h1.classList.add("haha")
+
+                //    remove() -
+                        //    let h1 = document.querySelector("h1")
+                        //    h1.classList.remove("haha")
+                           
+                //   toggle() - 
+                        //    let h1 = document.querySelector("h1")
+                        //    h1.classList.toggle("haha")
+
+// question - 
+
+        // what is a dom ? how does it reprsent the html structure ?
+        //  DOM = Document Object Model
+        //  Teen words hain:
+        //  Document = Poora HTML page
+        //  Object   = Har element ek object hai
+        //  Model   = Structure / Map
+        // ye html me tag or har element ka ek object hota hai 
+        // every thing is a node , html me tree jaisa structure hota hai 
+        //  dom kyu jaruri hai - 
+        //        ✅ HTML dynamically badal sakta hai
+        //        ✅ User click kare toh kuch ho sakta hai
+        //        ✅ API se data aake page pe dikh sakta hai
+        //        ✅ Real time updates ho sakte hain
+
+// name the type of node in the dom tree - 
+//        document node 
+//        element node 
+//        text node
+//        comment node
+
+// what's the difference between an element node and text node 
+
+        //    element node  - 
+        //             node name  - div , h1 , p etc 
+        //             style = yes 
+        //             class = yes 
+        //             children = yes 
+        //             attribute = yes 
+        //             value = not 
+        //     text node - 
+        //                me sirf  
+        //                   value = yes 
+
+//  what is the difference between getElementById and querySelector 
+        // getElementById  - me hame  id or class ke liye aalag se 
+        //                   # ya fir . ka use nhi karna rahata hai 
+        //                   ex -  
+        //                       document.getElementById("id")
+
+        // querySelector - me hame id or class ke liye aalag se # or . 
+        //                 ka use karna rahat hai kyu ki issme id ya class
+        //                 diffain nahi rahata hai
+        //                 ex - 
+        //                     document.querySelector("#id")
+
+// what does getElementByClassName return ? 
+//         it return - 
+
+         
+                        
