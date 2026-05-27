@@ -192,5 +192,10 @@
 
 // add a title attribute to a div dynamically ?
 
-     let title = document.querySelector("div")
-     title.setAttribute("title","hey this is me")
+        // let title = document.querySelector("div")
+        // title.setAttribute("title","hey this is me")
+
+// remove the disabled attribute from a button ?
+
+        let btn = document.querySelector("button")
+        btn.removeAttribute("disabled")
