@@ -133,7 +133,7 @@
         //                     document.querySelector("#id")
 
 // what does getElementByClassName return ? 
-//         it return -  HTMLCollection  it like array 
+        //it return -  HTMLCollection  it like array 
 
         //    let cl = document.getElementsByClassName("h1")
         //    console.log(cl)
@@ -145,6 +145,18 @@
 
 // t1: select the heading of a page by ID and change its text to "welcome to sheryian "
           
-       let head = document.querySelector("#heading")
-       head.textContent = "welcome to my feed !"
+        //let head = document.querySelector("#heading")
+        //head.textContent = "welcome to my feed !"
+
+// select all <li> element and print their text using a loop -
+
+        let los = document.querySelectorAll("ol")
+        los.forEach((val)=>{
+                console.log(val.textContent)
+        })
+
+        let loos = document.querySelectorAll("ol")
+        for(let i=0 ; i<loos.length; i++){
+                console.log(loos[i].textContent)
+        }
                         
