@@ -135,10 +135,13 @@
 // what does getElementByClassName return ? 
 //         it return -  HTMLCollection  it like array 
 
-           let cl = document.getElementsByClassName("h1")
-           console.log(cl)
+        //    let cl = document.getElementsByClassName("h1")
+        //    console.log(cl)
 
-
+// use querySelectorAll to select all button with class ".buy-now"
+        // it rerun = nodeList
+           let bynow = document.querySelectorAll("button")
+           console.log(bynow)
           
          
                         
